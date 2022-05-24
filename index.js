@@ -1,4 +1,6 @@
 import express from 'express';
+import articlesRouter from './routes/articlesRouter.js';
+
 const port = process.env.PORT || 5000;
 const app = express();
 
